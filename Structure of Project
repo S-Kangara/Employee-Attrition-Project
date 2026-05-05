@@ -1,0 +1,27 @@
+PROJECT STRUCTURE
+employee-attrition-predictor/
+│
+├── data/
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_features.ipynb
+│   └── 03_model.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── outputs/
+│   ├── figures/
+│   ├── model.pkl
+│   └── encoders.pkl
+│
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── run.py
