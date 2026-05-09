@@ -21,16 +21,14 @@ Predict which employees are likely to resign using Machine Learning.
 - XGBoost
 - SHAP
 
-## 📁 Project Structure
+## ✅ Business Recommendations
+1. Reduce overtime for employees in same role 3+ years
+2. Review salary for low income employees
+3. Create promotion paths for stagnant employees
 
-employee-attrition-predictor/
-├── data/
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   ├── 03_Model.ipynb
-│   └── 04_Business_Insights.ipynb
-└── outputs/
+## 📈 Model Performance
+- Algorithm: XGBoost
+- Accuracy: 88%
 
 Dataset details can be found here:
 👉 [View Dataset Instructions](DATASET.md)
