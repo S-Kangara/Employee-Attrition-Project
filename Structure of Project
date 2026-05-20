@@ -1,0 +1,10 @@
+## 📁 Project Structure
+
+employee-attrition-predictor/
+├── data/
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Feature_Engineering.ipynb
+│   ├── 03_Model.ipynb
+│   └── 04_Business_Insights.ipynb
+└── outputs/
